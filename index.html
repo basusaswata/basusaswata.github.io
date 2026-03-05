@@ -1,30 +1,581 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>Sas | Security Architect</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Saswata Basu — Principal Information Security Architect. Secure SDLC, Software Supply Chain Security, AI Governance, DevSecOps, Product Security." />
+  <meta name="theme-color" content="#0B1220" />
+
+  <!-- Optional: Open Graph (replace with your real domain + image) -->
+  <meta property="og:title" content="Saswata Basu | Principal Information Security Architect" />
+  <meta property="og:description" content="Secure SDLC • Supply Chain Security • AI Governance • DevSecOps • Product Security" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og.png" />
+
+  <title>Saswata Basu | Principal Information Security Architect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Optional: Modern, readable font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <h1>Hello, I'm Sas</h1>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <p>
-  Principal Security Architect specializing in
-  Software Supply Chain Security, DevSecOps,
-  and AI Security.
-  </p>
+  <!-- Top Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a class="brand-link" href="#">
+          <span class="brand-mark" aria-hidden="true">SB</span>
+          <span class="brand-text">Saswata Basu</span>
+        </a>
+      </div>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>SBOM Strategy</li>
-    <li>Agentic AI Security</li>
-    <li>Secure CI/CD Evidence Pipeline</li>
-  </ul>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
 
-  <h2>Contact</h2>
-  <p>
-  LinkedIn: your-link <br>
-  GitHub: your-github
-  </p>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        <span class="menu-bars" aria-hidden="true"></span>
+      </button>
+    </div>
 
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <div class="container mobile-nav-inner">
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Principal Information Security Architect</p>
+          <h1>
+            Building secure, scalable engineering platforms for
+            <span class="gradient-text">modern software + AI</span>.
+          </h1>
+
+          <p class="lead">
+            Enterprise architect focused on Secure SDLC, software supply chain security, and AI governance.
+            I design verifiable provenance (commit → PR → build → artifact → deploy), policy-driven CI/CD controls,
+            and secure patterns for agentic AI and RAG systems.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Let’s connect</a>
+            <a class="btn" href="#work">View work</a>
+          </div>
+
+          <ul class="hero-meta" aria-label="Quick details">
+            <li>
+              <span class="meta-k">Location</span>
+              <span class="meta-v">St. Louis, MO</span>
+            </li>
+            <li>
+              <span class="meta-k">Focus</span>
+              <span class="meta-v">Secure SDLC • Supply Chain • AI Governance</span>
+            </li>
+            <li>
+              <span class="meta-k">Core strengths</span>
+              <span class="meta-v">Distributed systems • Platform security • Policy as code</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-card">
+          <div class="profile">
+            <!-- Optional: add your image at assets/headshot.jpg -->
+            <div class="avatar" role="img" aria-label="Profile photo placeholder">
+              <img src="assets/headshot.jpg" alt="Saswata Basu" onerror="this.style.display='none'; this.parentElement.classList.add('avatar-fallback');" />
+              <div class="avatar-fallback-inner" aria-hidden="true">
+                <span>SB</span>
+              </div>
+            </div>
+
+            <div class="profile-body">
+              <h2 class="profile-name">Saswata Basu</h2>
+              <p class="profile-title">
+                Enterprise Architecture • AI Governance • DevSecOps<br />
+                Software Supply Chain Security • Product Security
+              </p>
+
+              <div class="profile-links">
+                <!-- Replace with your real URLs -->
+                <a class="chip" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a class="chip" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="chip" href="mailto:basu.saswata@gmail.com">Email</a>
+              </div>
+
+              <div class="profile-stats" aria-label="Highlights">
+                <div class="stat">
+                  <div class="stat-k">Experience</div>
+                  <div class="stat-v">17+ years</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-k">Domain</div>
+                  <div class="stat-v">Supply Chain Sec</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-k">Scale</div>
+                  <div class="stat-v">18+ subsidiaries</div>
+                </div>
+              </div>
+
+              <div class="callout">
+                <div class="callout-title">Now</div>
+                <p class="callout-text">
+                  Leading Secure SDLC + software provenance, and defining AI Secure SDLC guardrails for real-time AI and decision systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subtle background decor -->
+      <div class="hero-backdrop" aria-hidden="true">
+        <div class="glow g1"></div>
+        <div class="glow g2"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>
+            I work at the intersection of platform architecture and security: designing systems that stay fast,
+            reliable, and compliant at enterprise scale.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>What I do</h3>
+            <p>
+              I architect enterprise security controls that live inside engineering workflows: build-time policy gates,
+              secure-by-default patterns, provenance and SBOM automation, and platform governance that developers can actually adopt.
+            </p>
+
+            <ul class="bullets">
+              <li>Secure SDLC embedded into CI/CD (policy-driven quality gates)</li>
+              <li>Cryptographically verifiable provenance across the delivery chain</li>
+              <li>SBOM generation + dependency risk correlation</li>
+              <li>Reference architectures for authn, authz, trust boundaries, and data protection</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>What I’m known for</h3>
+            <p>
+              I’m a builder who can also drive alignment: turning complex security requirements into scalable platform capabilities,
+              and helping leaders prioritize investments with clear architecture choices.
+            </p>
+
+            <div class="pill-list" aria-label="Keywords">
+              <span class="pill">SLSA-aligned provenance</span>
+              <span class="pill">SBOM automation</span>
+              <span class="pill">OPA / Rego</span>
+              <span class="pill">Kafka + event-driven design</span>
+              <span class="pill">AWS + Kubernetes</span>
+              <span class="pill">RAG / Agentic AI / MCP</span>
+              <span class="pill">Threat modeling</span>
+            </div>
+
+            <div class="note">
+              <strong>Outside work:</strong> technical writing/guest lectures, plus music arrangement and videography.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Focus Areas -->
+    <section id="focus" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Focus areas</h2>
+          <p>Where I spend most of my time and energy.</p>
+        </div>
+
+        <div class="cards-3">
+          <article class="card">
+            <h3>Secure SDLC & Platform Controls</h3>
+            <p>
+              Security that ships with the platform: automated guardrails, build-time enforcement, and
+              pragmatic workflows that developers don’t fight.
+            </p>
+            <ul class="mini">
+              <li>CI/CD gates & approvals</li>
+              <li>Branch protection & merge governance</li>
+              <li>Artifact signing & policy verification</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Software Supply Chain Security</h3>
+            <p>
+              End-to-end integrity from source to deploy, backed by evidence and verifiable metadata.
+            </p>
+            <ul class="mini">
+              <li>Provenance architecture (commit → deploy)</li>
+              <li>SBOM generation & correlation</li>
+              <li>Open-source risk management</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>AI Governance & Secure AI Adoption</h3>
+            <p>
+              Guardrails for AI in production: patterns for RAG and agentic workflows, access controls,
+              auditability, and risk mitigations.
+            </p>
+            <ul class="mini">
+              <li>AI Secure SDLC roadmap</li>
+              <li>RAG / Agentic AI / MCP patterns</li>
+              <li>NIST AI RMF + OWASP AI controls</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p>A quick timeline of roles and impact.</p>
+        </div>
+
+        <div class="timeline" role="list">
+          <div class="t-item" role="listitem">
+            <div class="t-when">2022 — Present</div>
+            <div class="t-body">
+              <h3>Mastercard — Principal Information Security Architect</h3>
+              <p class="t-sub">Secure SDLC • Supply Chain Security • AI Governance</p>
+              <ul class="bullets">
+                <li>Architected and operationalized enterprise Secure SDLC via CI/CD-embedded controls and policy gates.</li>
+                <li>Designed verifiable software provenance architecture aligned with SLSA maturity models.</li>
+                <li>Implemented SBOM generation and dependency risk correlation workflows.</li>
+                <li>Defined reference architectures for authn/authz, data protection, and trust boundary enforcement.</li>
+                <li>Led AI Secure SDLC roadmap and secure patterns for RAG, agentic AI workflows, and MCP.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="t-item" role="listitem">
+            <div class="t-when">2018 — 2022</div>
+            <div class="t-body">
+              <h3>Mastercard — Lead Software Engineer</h3>
+              <p class="t-sub">Real-time payments • Microservices • Kafka/Redis • AWS</p>
+              <ul class="bullets">
+                <li>Architected high-throughput, low-latency microservices for real-time payment enablement.</li>
+                <li>Designed event-driven systems using Kafka and low-latency state with Redis.</li>
+                <li>Improved deployment cycle time via IaC and automation; increased uptime via fault isolation and tuning.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="t-item" role="listitem">
+            <div class="t-when">2010 — 2018</div>
+            <div class="t-body">
+              <h3>Express-scripts (Cognizant) — Software Engineer</h3>
+              <p class="t-sub">Healthcare • Threat monitoring • TVM lifecycle • Cloud standards</p>
+              <ul class="bullets">
+                <li>Led Threat Monitoring & Critical Response efforts; standardized TVM lifecycle.</li>
+                <li>Coordinated pen tests and remediation; authored public cloud security standards and compliance reviews.</li>
+                <li>Designed and maintained highly available AWS-based healthcare systems.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="t-item" role="listitem">
+            <div class="t-when">2006 — 2010</div>
+            <div class="t-body">
+              <h3>Early career</h3>
+              <p class="t-sub">IBM India (Senior Developer) • eForce India (Developer)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="two-col">
+          <div class="card">
+            <h3>Patent</h3>
+            <p class="muted">Co-inventor</p>
+            <p><strong>Integrated Record Management for Intelligent Transaction Routing</strong></p>
+            <p class="muted">US20220114570A1 (Pending)</p>
+          </div>
+
+          <div class="card">
+            <h3>Education</h3>
+            <ul class="bullets">
+              <li><strong>PGP – AI/ML</strong> (2025)</li>
+              <li><strong>Master’s in Computer Application</strong> — University of Calcutta (2002–2005)</li>
+              <li><strong>Bachelor’s in Science (Physics)</strong> — University of Calcutta (1999–2002)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work / Featured -->
+    <section id="work" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Selected work</h2>
+          <p>Representative architecture areas (swap in links as you publish public write-ups).</p>
+        </div>
+
+        <div class="cards-3">
+          <article class="card">
+            <h3>Verifiable provenance blueprint</h3>
+            <p>
+              End-to-end evidence chain: commit, PR approvals, build attestations, signed artifacts, and deployment verification.
+              Designed to align with SLSA maturity goals and enterprise governance.
+            </p>
+            <div class="card-foot">
+              <span class="tag">SLSA</span>
+              <span class="tag">Signing</span>
+              <span class="tag">Policy</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>SBOM automation & risk correlation</h3>
+            <p>
+              Automated generation of SBOMs plus real-time dependency risk correlation to keep delivery pipelines safe
+              without slowing teams down.
+            </p>
+            <div class="card-foot">
+              <span class="tag">SBOM</span>
+              <span class="tag">OSS risk</span>
+              <span class="tag">CI/CD</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>AI Secure SDLC guardrails</h3>
+            <p>
+              Security patterns for RAG and agentic systems: access controls, audit trails, context boundaries,
+              and threat modeling for prompt injection, data exfiltration, and tool misuse.
+            </p>
+            <div class="card-foot">
+              <span class="tag">RAG</span>
+              <span class="tag">Agentic AI</span>
+              <span class="tag">MCP</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Technology landscape</h3>
+            <div class="stack">
+              <div class="stack-row">
+                <span class="stack-k">Cloud & Infra</span>
+                <span class="stack-v">AWS (EKS, Lambda, IAM, S3, CloudWatch), Docker, Kubernetes</span>
+              </div>
+              <div class="stack-row">
+                <span class="stack-k">Streaming</span>
+                <span class="stack-v">Kafka, Redis</span>
+              </div>
+              <div class="stack-row">
+                <span class="stack-k">APIs</span>
+                <span class="stack-v">REST, SOAP, GraphQL, gRPC</span>
+              </div>
+              <div class="stack-row">
+                <span class="stack-k">Languages</span>
+                <span class="stack-v">Java, Python, JavaScript, Rego</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Certifications</h3>
+            <ul class="bullets">
+              <li>PGP – AI/ML (2025)</li>
+              <li>AWS Solutions Architect – Associate</li>
+              <li>TOGAF 9 Certified</li>
+              <li>Oracle Certified Professional (Java)</li>
+            </ul>
+            <p class="muted small">
+              Tip: If you want, I can add the exact credential IDs and verification links once you share them.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Writing / Speaking -->
+    <section id="writing" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Writing & speaking</h2>
+          <p>Thought leadership, internal community work, and teaching.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Publications</h3>
+            <ul class="link-list">
+              <!-- Replace placeholders with your real links -->
+              <li>
+                <a href="#" aria-disabled="true">CISO Magazine — article (add link)</a>
+                <span class="muted">Security leadership / platform governance</span>
+              </li>
+              <li>
+                <a href="#" aria-disabled="true">Cyber Security Tribe Magazine — article (add link)</a>
+                <span class="muted">Application security / supply chain security</span>
+              </li>
+              <li>
+                <a href="#" aria-disabled="true">LinkedIn — essays and posts (add link)</a>
+                <span class="muted">AI security, DevSecOps, and architecture</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Teaching</h3>
+            <ul class="bullets">
+              <li>Guest lecturer (WashU, UMSL)</li>
+              <li>Internal guild talks and senior forums</li>
+              <li>Built and scaled a distributed Security Champion model</li>
+            </ul>
+
+            <div class="note">
+              If you want, I can add a “Talks” section with deck links and a short speaker bio.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Best way to reach me and what I’m open to.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Reach out</h3>
+            <p class="muted">
+              I’m happy to connect on platform security, supply chain security, AI governance, and distributed systems architecture.
+            </p>
+
+            <div class="contact-box">
+              <a class="contact-row" href="mailto:basu.saswata@gmail.com">
+                <span class="contact-k">Email</span>
+                <span class="contact-v">basu.saswata@gmail.com</span>
+              </a>
+
+              <!-- Replace with your real LinkedIn URL -->
+              <a class="contact-row" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                <span class="contact-k">LinkedIn</span>
+                <span class="contact-v">Add your profile link</span>
+              </a>
+
+              <!-- Replace with your GitHub URL -->
+              <a class="contact-row" href="https://github.com/" target="_blank" rel="noreferrer">
+                <span class="contact-k">GitHub</span>
+                <span class="contact-v">Add your profile link</span>
+              </a>
+            </div>
+
+            <p class="muted small">
+              Want this as a multi-page site (About, Projects, Talks, Blog)? I can split it cleanly without changing the design.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Quick bio (copy/paste)</h3>
+            <p class="bio">
+              Principal Information Security Architect with 17+ years designing and scaling high-throughput distributed systems in
+              financial services and healthcare. Architect of enterprise Secure SDLC and software supply chain security, with deep
+              expertise in provenance, SBOM automation, CI/CD governance, and policy-as-code. Leads AI Secure SDLC patterns for
+              responsible adoption of real-time AI, including RAG and agentic workflows. Thought leader and educator through
+              publications, internal communities, and guest lectures.
+            </p>
+
+            <div class="bio-actions">
+              <button class="btn small" id="copyBio">Copy bio</button>
+              <span class="muted small" id="copyStatus" role="status" aria-live="polite"></span>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p class="muted small">
+            © <span id="year"></span> Saswata Basu • Built with GitHub Pages
+          </p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Mobile menu
+    const menuBtn = document.querySelector('.menu-btn');
+    const mobileNav = document.getElementById('mobileNav');
+
+    if (menuBtn && mobileNav) {
+      menuBtn.addEventListener('click', () => {
+        const isOpen = menuBtn.getAttribute('aria-expanded') === 'true';
+        menuBtn.setAttribute('aria-expanded', String(!isOpen));
+        mobileNav.hidden = isOpen;
+      });
+
+      // Close menu when clicking a link
+      mobileNav.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          menuBtn.setAttribute('aria-expanded', 'false');
+          mobileNav.hidden = true;
+        });
+      });
+    }
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Copy bio
+    const copyBtn = document.getElementById('copyBio');
+    const bioText = document.querySelector('.bio')?.innerText || '';
+    const copyStatus = document.getElementById('copyStatus');
+
+    if (copyBtn) {
+      copyBtn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(bioText.trim());
+          copyStatus.textContent = 'Copied.';
+          setTimeout(() => (copyStatus.textContent = ''), 1200);
+        } catch (e) {
+          copyStatus.textContent = 'Copy failed. Select the text and copy manually.';
+        }
+      });
+    }
+  </script>
 </body>
 </html>
